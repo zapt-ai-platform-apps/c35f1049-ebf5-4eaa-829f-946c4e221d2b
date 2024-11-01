@@ -1,42 +1,65 @@
-# New App
+# English Learning Hub
 
-## Introduction
+Welcome to English Learning Hub, an interactive platform to enhance your English language skills using AI-powered lessons.
 
-Welcome to **New App**, your go-to platform for learning English. This app provides structured lessons to help users improve their English skills, covering topics like grammar, vocabulary, and common phrases.
+## User Journeys
 
-## User Journey
+1. **Sign In with ZAPT**
 
-### 1. Viewing Available Lessons
+   - Open the app and click on "Sign in with ZAPT".
+   - You will be redirected to a login page where you can sign in using your email or social accounts (Google, Facebook, Apple).
+   - After successful authentication, you will be taken to the home page.
 
-- **Step 1:** Upon opening the app, you are greeted with a list of English lessons.
-- **Step 2:** Each lesson is displayed with a title and a brief description. You can scroll through the list to see all available lessons.
+2. **Generate a New Lesson**
 
-### 2. Accessing a Lesson
+   - On the home page, click on the "Generate Lesson" button.
+   - The app will generate a new English lesson using AI.
+   - A loading indicator will be displayed while the lesson is being generated.
+   - Once the lesson is ready, it will appear on the screen.
 
-- **Step 1:** Click on a lesson that interests you.
-- **Step 2:** You are navigated to the lesson detail page, where you can read the full content of the lesson.
-- **Step 3:** The lesson content is presented in an easy-to-read format, with clear headings and paragraphs.
+3. **Review and Save the Lesson**
 
-### 3. Navigation
+   - Review the generated lesson content.
+   - If you are satisfied with the lesson, click the "Save Lesson" button to save it to your account.
+   - The lesson will be added to your saved lessons list.
 
-- **Step 1:** While viewing a lesson, you can return to the list of lessons by clicking the "Back to lessons" link at the top of the page.
+4. **View Saved Lessons**
 
-## Features
+   - Navigate to the "Saved Lessons" section on the home page.
+   - You will see a list of all the lessons you have saved.
+   - Click on any lesson to view its content in detail.
 
-- **Responsive Design:** The app is designed to be user-friendly and responsive on all devices, ensuring a great experience whether you're on a desktop, tablet, or mobile phone.
+5. **Generate Related Images**
 
-- **Easy Navigation:** Quickly navigate between lessons and the main list using intuitive links.
+   - For any lesson, you can generate a related image by clicking on the "Generate Image" button.
+   - The app will create an image that corresponds to the lesson content.
+   - The generated image will be displayed alongside the lesson.
 
-- **Engaging Content:** Lessons are structured to provide informative and engaging content to enhance your English learning journey.
+6. **Text-to-Speech Functionality**
 
-## External APIs and Services
+   - Improve your pronunciation by listening to the lesson.
+   - Click on the "Text to Speech" button to generate an audio version of the lesson content.
+   - An audio player will appear, allowing you to play, pause, and control the volume of the lesson narration.
 
-- **Sentry:** Used for error logging and monitoring to enhance the app's reliability.
+7. **Generate Markdown Notes**
 
-## Environment Variables
+   - Enhance your notes by generating markdown-formatted content.
+   - Click on the "Generate Markdown" button to create markdown notes for the lesson.
+   - The markdown content will be displayed, which you can view and copy for your reference.
 
-- `VITE_PUBLIC_SENTRY_DSN`: The DSN for Sentry error logging.
+8. **Sign Out**
 
-- `VITE_PUBLIC_APP_ENV`: The environment (e.g., development, production) for Sentry.
+   - When you are done, you can sign out by clicking on the "Sign Out" button at the top of the home page.
+   - You will be redirected back to the login page.
 
-*(Environment variables should be added to a `.env` file in the root of the project.)*
+## External APIs Used
+
+- **ZAPT AI Services**
+
+  - Used for generating lessons, images, and audio via AI events.
+  - Ensures interactive and personalized learning experiences.
+
+## Note
+
+- All your lessons are securely saved to your account.
+- The app provides responsive and user-friendly interfaces for seamless navigation.
